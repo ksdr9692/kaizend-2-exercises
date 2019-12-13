@@ -12,4 +12,7 @@ class Car:
         self.make = make
         self.model = model
 
-    def age()    
+
+    def age(self):
+    	return 2019 - self.year    
+
